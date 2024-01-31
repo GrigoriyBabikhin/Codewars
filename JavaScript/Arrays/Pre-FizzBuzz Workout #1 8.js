@@ -13,5 +13,4 @@ function preFizz(n) {
 }
 
 
-let result = preFizz(2)
-console.log(result)
+console.log(preFizz(2))
