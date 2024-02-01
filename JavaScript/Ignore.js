@@ -1,7 +1,13 @@
-function solution(a, b) {
+function findShort(s){
+   let arrMin = s.split(" ");
+   let shortWord = arrMin[0];
 
-    if (a.length > b.length) return `${b}${a}${b}`
-    else return `${a}${b}${a}`
+   for (let i= 0; i < arrMin.length; i++ ){
+       if(arrMin[i].length < shortWord.length){
+           shortWord = arrMin[i]
+       }
+   }
+   return shortWord.length
 }
 
-console.log(solution('44','1'))
+console.log(findShort("Let's travel we abroad shall travel we"));
