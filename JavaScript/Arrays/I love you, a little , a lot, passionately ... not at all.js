@@ -38,7 +38,6 @@
 console.log(howMuchILoveYou(6))*/
 
 
-/*
 
 // лучшее решение
 // Задаем массив фраз, которые будут возвращаться в зависимости от значения n
@@ -52,6 +51,7 @@ const phrases = [
 ]
 
 // Определяем функцию howMuchILoveYou, которая возвращает соответствующую фразу из массива
+
 function howMuchILoveYou(n) {
     // Используем остаток от деления на длину массива, чтобы обеспечить циклическое возвращение фраз
     return phrases[(n - 1) % phrases.length];
@@ -61,4 +61,3 @@ function howMuchILoveYou(n) {
 console.log(howMuchILoveYou(7)); // Вывод: "I love you"
 console.log(howMuchILoveYou(8)); // Вывод: "a little"
 console.log(howMuchILoveYou(15)); // Вывод: "a lot"
-*/

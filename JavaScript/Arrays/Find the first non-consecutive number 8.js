@@ -16,7 +16,7 @@ function firstNonConsecutive(arr) {
     return null
 }
 
-let arr = [1, 2, 3, 4, 6, 7]
+let arr = [1, 2, 3, 4, 8, 7]
 let result = firstNonConsecutive(arr)
 console.log(result)
 
